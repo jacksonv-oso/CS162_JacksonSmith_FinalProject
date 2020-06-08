@@ -3,12 +3,12 @@ import processing.core.PApplet;
 import java.util.ArrayList;
 
 public class Sketch extends PApplet {
-    Human human;
-    Zombie zombie;
-    ArrayList<Human> humans;
-    ArrayList<Zombie>zombies;
-    final int NUM_ZOMBIES = (int) random(100,300);
-    final int NUM_HUMANS = (int) random(100,300);
+    private Human human;
+    private Zombie zombie;
+    private ArrayList<Human> humans;
+    private ArrayList<Zombie>zombies;
+    private final int NUM_ZOMBIES = (int) random(100,300);
+    private final int NUM_HUMANS = (int) random(100,300);
 
     public void settings(){
         size(1000,1000);
